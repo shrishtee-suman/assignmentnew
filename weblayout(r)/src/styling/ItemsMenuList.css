@@ -1,0 +1,28 @@
+.itemsMenuContainer{
+    background-color:#2e2e2e;
+}
+.sliderContainer{
+    width:980px;
+    margin:0 auto;
+    background-color: #000;
+    padding-top: 10px;
+    height:4px;
+}
+.menuItemContainer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:960px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menuItem{
+    text-align: center;
+    color:#5f5f5f;
+    cursor: pointer;
+}
+.selectedTab{
+    border-top:7px solid #57c5a0;
+    color:#fff;
+}

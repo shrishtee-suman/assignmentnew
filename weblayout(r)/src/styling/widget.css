@@ -1,0 +1,25 @@
+.widget-container{
+    background-color: #242424;
+}
+.widget-wrapper{
+    width:960px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+   }
+.widget-wrapper li{
+    width: 260px;
+    color: #7d7d7d;
+    padding: 10px;
+}
+h4{
+    margin-bottom:10px;
+}
+span{
+    color:#57c5a0;
+    cursor: pointer;
+}
+.duration{
+    margin: 7px 0;
+}

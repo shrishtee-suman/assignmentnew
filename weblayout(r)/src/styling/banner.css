@@ -1,0 +1,29 @@
+.banner-container{
+    background-color: #e8ece8;
+}
+/* .banner{
+    width:1000px;
+     margin: 0 auto; 
+    position: relative;
+} */
+.banner-info{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 45%;
+    /* border:1px solid black; */
+   
+}
+.price{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #57c5a0;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+.info{
+    width:45%;
+}
