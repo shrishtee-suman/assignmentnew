@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import thunk from 'redux-thunk';
-// import { createStore, applyMiddleware } from 'redux';
-// import { Provider } from 'react-redux';
-// import combineReducers from './src/Reducers/rootReducer.js'
+import thunk from 'redux-thunk';
+import { createStore, applyMiddleware , compose} from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from './src/Reducers/index';
 import App from './src/app';
 
- //const store=createStore(combineReducers,applyMiddleware(thunk));
-//  const app =<Provider store={ store }>
-//                 <App/>
-//              </Provider>
+let middleWare = () => {
+    let _compose = compose;
+    if (typeof window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ === 'function') {
+        _compose = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__;
+        }
+    return _compose(applyMiddleware(thunk));
+}
+ const store=createStore(rootReducer,middleWare());
 
-ReactDOM.render(<App/>,document.getElementById('root'));
+ 
+ const app =<Provider store={ store }>
+              <App/>
+           </Provider>
+
+ReactDOM.render(app,document.getElementById('root'));
 

@@ -6,7 +6,6 @@ export const NavItems = [
     "Pages",
     "Blog",
     "Contact",
-
 ];
 
 export const images =[
@@ -26,8 +25,7 @@ export const ItemsMenu =[
     {
         heading:"Pink Shoes",
         caption:"Now at $145.99"
-    },
-    {
+    },{
 
         heading:"Anna Field",
         caption:"Limited Edition"

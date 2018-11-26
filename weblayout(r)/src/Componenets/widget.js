@@ -35,7 +35,7 @@ export class Widget extends Component{
 					</li>
 					<li>
 						<h4 id="flickr-widget">FLICKR WIDGET</h4>
-						<img src="assets/flickr-widget.png" />
+						<img src={require('../assets/flickr-widget.png')} />
 					</li>
 				</ul>
 			</div>

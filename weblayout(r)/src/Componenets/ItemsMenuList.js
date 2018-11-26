@@ -18,7 +18,7 @@ export class ItemsMenuList extends Component{
 
     itemsMenu = () => ItemsMenu.map((item,index)=>{
         return(
-            <li className={`menuItem ${this.state.selectedTab===index?'selectedTab':''}`}  onClick={() =>this.handleClick(index)}>
+            <li key={index} className={`menuItem ${this.state.selectedTab===index?'selectedTab':''}`}  onClick={() =>this.handleClick(index)}>
                 <h3>{ item.heading }</h3>
                 <p>{ item.caption }</p>
             </li>

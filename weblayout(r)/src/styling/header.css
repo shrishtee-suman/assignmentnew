@@ -13,3 +13,18 @@
     background-color: #242424;
     color:#57c5a0;
 }
+.for-user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user-login{
+    background-color: #242424;
+    color: #7e7e7e;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    border:none;
+    padding-left: 7px;
+    padding-right: 10px;
+}

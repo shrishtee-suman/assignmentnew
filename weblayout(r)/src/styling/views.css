@@ -1,0 +1,27 @@
+.content-heading{
+    text-align: center;
+    margin: 10px;
+    background-color: #ccc;
+    color:#57c5a0;
+    text-decoration: underline;
+}
+.about-content{
+    width:700px;
+    margin: 0 auto;
+    font-size:25px;
+    background-color: #ccc;
+    color:#2e2e2e;
+    margin:20px 20px;
+    padding:20px  20px;
+    border:2px solid #2e2e2e;
+}
+.contact-info{
+    width:400px;
+    margin:0 auto;
+    border:2px solid black;
+    box-shadow: 0 2px 3px #2e2e2e;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}

@@ -7,9 +7,9 @@ export class Header extends Component {
             <header className="heading">
                 <div className="inner-container">
                     <h1>FOOSESHOES</h1>
-                    <div>
+                    <div className="for-user">
                         <span className="search-icon">
-                            <img src="assets/Search Icon.png" />
+                            <img className="search-icon-img" src={require('../assets/search-icon.png')} />
                         </span>
                         <button className="user-login">Login or Register</button>
                     </div>
